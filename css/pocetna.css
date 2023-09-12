@@ -173,13 +173,12 @@ footer{
 
     display: none;
     position: relative;
-    bottom: 0;
+    bottom: -250px;
     left: 0;
     right: 0;
     background-color: #ffcbff;
     padding: 0%;
     width: 100%;
-    height: auto;
    
     
 } 
