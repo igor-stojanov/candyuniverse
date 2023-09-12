@@ -172,7 +172,7 @@ body{
 footer{
 
     display: none;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -187,7 +187,7 @@ footer.active{
 }
 
 body:not(.home) footer {
-    display: flex;
+    display: inline-block;
 }
 
 .footer-content{
