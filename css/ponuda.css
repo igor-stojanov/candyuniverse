@@ -1,0 +1,222 @@
+body{
+    margin: auto;
+    /*background-image: url("https://images.unsplash.com/photo-1633871676530-cec28b5199d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");*/
+    background-image: url("https://tau.fra1.cdn.digitaloceanspaces.com/candyuniverse/2860/conversions/slider-desktop-8027616929a31d0d84dd82c09abf8bfe-desktop-xl-x1-webp.webp");
+    background-repeat: repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: 150% ;
+     background-color: rgba(255, 245, 233, 0.927);
+     background-blend-mode: lighten;
+   
+}
+.logo{
+    align-self: center;
+    float: right;
+    
+}
+
+.img-logo{
+  width: 120px;
+  height: 100px;
+  align-self: center;
+  float: right;
+}
+
+.heder{
+    overflow: auto;
+    /*background-color: #ffccee;*/
+    background-color: #ee85e0;
+
+}
+.heder a {
+    float: left;
+    color:#000000;
+    text-align: left;
+    padding: 35px 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.heder a:hover {
+    background-color: #ff4dff;
+    color: white;
+}
+.heder a.active {
+    background-color: #ff4dff;
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #ee85e0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Stilizacija za stavke dropdown menija */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff4dff;
+    color: black;
+}
+
+#naslov{
+    color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+   
+}
+
+#p{
+
+    width: 25%;
+    float: center;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+
+.cenovnik h2{
+    text-align: center;
+    
+}
+
+ul.cenovnik{
+ 
+    list-style-type: none;
+    float: center;
+    text-align: center;
+    padding: 5px;
+    border-color: #fd0e91;
+    border-width: 5px;
+    border-style: double;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-size: medium;
+}
+
+.slatkisi{
+    float: left;
+     width: 33.33%;
+    padding: 5px;
+}
+
+.veliko{
+  padding: 4%;
+}
+.veliko::after {
+    
+    clear: both;
+    display: table;
+}
+#slika1 {
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#slika2 {
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#slika3 {
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#slika4 {
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+footer{
+    display: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffcbff;
+    padding: 0%;
+    width: 100%;
+} 
+footer.active{
+    display: block;
+}
+
+body:not(.home) footer {
+    /*ili flex kao ostali elementi stranice ali moras da mu namestis levu marginu jer kod flexa su elementi jedan pored drugog*/
+    display: inline-block;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+ul.lista{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 12px;
+    /*margin-left: 1160px;*/
+    font-size: smaller;
+    text-align: right;
+    text-justify: right;
+    align-items: right;
+}
+.lokacijaObjekata{
+    margin-bottom: 5px;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .logo {
+        width: 20px;
+        height: 20px;
+        margin-top: -20px;
+        
+    }
+
+    .heder a {
+        padding: 20px 10px 30px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .cenovnik h2 {
+        font-size: 20px;
+    }
+
+    ul.cenovnik {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,18 @@
+.drustveneMreze {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .drustveneMreze a {
+    margin: 10px 5px;
+  }
+  
+  .drustveneMreze img {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+  }
+
+  
