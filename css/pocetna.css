@@ -171,7 +171,7 @@ body{
 
 footer{
 
-    display: block;
+    display: inline-block;
     position: relative;
     bottom: 0px;
     left: 0;
@@ -179,6 +179,7 @@ footer{
     background-color: #ffcbff;
     padding: 0%;
     width: 100%;
+    height: auto;
    
     
 } 
