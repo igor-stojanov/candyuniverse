@@ -171,8 +171,8 @@ body{
 
 footer{
 
-    display: inline-block;
-    position: relative;
+    display: none;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
