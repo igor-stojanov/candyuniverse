@@ -171,7 +171,7 @@ body{
 
 footer{
 
-    display: none;
+    display: flex;
     position: absolute;
     bottom: 0px;
     left: 0;
