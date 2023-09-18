@@ -171,16 +171,14 @@ body{
 
 footer{
 
-    display: inline-block;
-    position: relative;
+    display: none;
+    position: absolute;
     bottom: -100px;
     left: 0;
     right: 0;
     background-color: #ffcbff;
     padding: 0%;
     width: 100%;
-   
-
    
     
 } 
