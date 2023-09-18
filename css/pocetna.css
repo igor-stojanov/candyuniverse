@@ -173,20 +173,17 @@ footer{
 
     display: inline-block;
     position: relative;
-    bottom: 0px;
+    bottom: -100px;
     left: 0;
     right: 0;
     background-color: #ffcbff;
     padding: 0%;
     width: 100%;
-    height: auto;
+   
 
    
     
 } 
-footer.active{
-    display: block;
-}
 
 body:not(.home) footer {
     display: inline-block;
