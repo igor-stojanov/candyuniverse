@@ -173,7 +173,7 @@ footer{
 
     display: none;
     position: fixed;
-    bottom: -300px;
+    bottom: 0px;
     left: 0;
     right: 0;
     background-color: #ffcbff;
