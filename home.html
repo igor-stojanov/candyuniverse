@@ -137,7 +137,7 @@
         </div>
         <div class="slide fade">
             <a href="ponuda.html">
-                <img src="img/cokoladice3.jpg" alt="Čokoladice">
+                <img src="img/candyshop.png" alt="Čokoladice">
             </a>
         </div>
         <div class="slide fade">
@@ -153,7 +153,7 @@
     </div>
 
     <div id="song-lyrics" style="display: none;">
-        <p id="lyrics-text"><!-- Lyrics will be inserted here --></p>
+        <p id="lyrics-text"></p>
     </div>
 
     <footer>
@@ -183,7 +183,7 @@
             document.getElementById("nazivProdavnice").innerHTML = "DOBRO DOŠLI!";
             var audio = document.getElementById("background-audio");
             
-            // Play the audio and show lyrics when user interacts with the page
+           
             if (audio.paused) {
                 audio.play().then(() => {
                     showLyrics();
@@ -195,7 +195,7 @@
 
         function showLyrics() {
             var lyrics = [
-                "Welcome to the Candy Shop!",
+            "Welcome to the Candy Shop!",
                 "",
                 "Yeah, uh-huh",
                 "So seductive",
@@ -226,7 +226,7 @@
                 if (index < lyrics.length) {
                     lyricsText.innerHTML += lyrics[index] + "<br>";
                     index++;
-                    if (index % 2 === 0) {  // Display next lines every 2 seconds
+                    if (index % 2 === 0) {  
                         setTimeout(displayNextLine, 3500);
                     } else {
                         displayNextLine();

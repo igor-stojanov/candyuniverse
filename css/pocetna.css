@@ -1,34 +1,27 @@
-body{
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
     margin: auto;
-    /*background-image: url("https://img.freepik.com/premium-photo/sweet-cotton-candy-horizontal-background_107173-36446.jpg?w=2000");*/
-   /*background-image: url("https://images.unsplash.com/photo-1633871676530-cec28b5199d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-   /*background-image: url("https://images.unsplash.com/photo-1517683551739-7f3f08efba84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
-   background-image: url("https://images.pexels.com/photos/325522/pexels-photo-325522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-   background-image: url("https://treatsforus.com/cdn/shop/products/CottonCandy_900x.jpg?v=1604443719");*/
-   background-image: url("https://tau.fra1.cdn.digitaloceanspaces.com/candyuniverse/2860/conversions/slider-desktop-8027616929a31d0d84dd82c09abf8bfe-desktop-xl-x1-webp.webp");
-   background-repeat: repeat;
+    background-image: url("https://tau.fra1.cdn.digitaloceanspaces.com/candyuniverse/2860/conversions/slider-desktop-8027616929a31d0d84dd82c09abf8bfe-desktop-xl-x1-webp.webp");
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 150% ;
+    background-size: 150%;
     background-color: rgba(255, 245, 233, 0.927);
     background-blend-mode: lighten;
-    
-    
-   
+    color: #333;
 }
 
-.logo{
+.logo {
     align-self: center;
     float: right;
-    
 }
 
-.img-logo{
-  width: 120px;
-  height: 100px;
-  align-self: center;
-  float: right;
-  
+.img-logo {
+    width: 120px;
+    height: 100px;
+    align-self: center;
+    float: right;
 }
 
 #naslov {
@@ -39,7 +32,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-style: oblique;
-    color:#e72bce;
+    color: #e72bce;
 }
 
 #nazivProdavnice {
@@ -49,13 +42,11 @@ body{
     margin-bottom: 145px;
     text-align: center;
     font-size: 80px;
-    color:#e72bce;
-    
+    color: #e72bce;
 }
 
-.tekst{
-    color:#e72bce;
-    
+.tekst {
+    color: #e72bce;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -63,30 +54,32 @@ body{
     font-size: smaller;
     margin-top: auto;
     margin-left: 100px;
-
 }
-.heder{
+
+.heder {
     overflow: auto;
-    /*background-color: #ffccee;*/
     background-color: #ee85e0;
-
 }
+
 .heder a {
     float: left;
-    color:#000000;
+    color: #000000;
     text-align: left;
     padding: 35px 14px 50px; /*11 i 14 je bilo bez logoa*/
     text-decoration: none;
     font-size: 17px;
 }
+
 .heder a:hover {
     background-color: #ff4dff;
     color: white;
 }
+
 .heder a.active {
     background-color: #ff4dff;
     color: white;
 }
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -119,17 +112,15 @@ body{
     color: rgb(255, 255, 255);
 }
 
-
-
-/*naredna dva pozivanja klasa odnose se na tekst koji se nalazi na iskacucoj stranici potvrda*/
-.page-content{
+.page-content {
     margin-left: 100px;
     margin-right: 100px;
     font-size: smaller;
     text-align: center;
     margin-top: -50px;
 }
-.datum{
+
+.datum {
     margin-right: 0;
     margin-top: 80px;
     text-align: right;
@@ -137,24 +128,19 @@ body{
     align-content: right;
 }
 
-
-
 .slideshow-container {
     max-width: 450px;
     position: relative;
     margin: auto;
     margin-bottom: 100px;
     margin-top: -10px;
-    
 }
 
 .slide {
     display: none;
 }
 
-
 .slideshow-container img {
-   
     max-width: 100%;
     height: auto;
     align-items: center;
@@ -162,15 +148,9 @@ body{
     align-self: center;
     margin-left: 0px;
     margin-top: -100px;
-    
-
 }
 
-
-
-
-footer{
-
+footer {
     display: none;
     position: relative;
     bottom: 0;
@@ -180,23 +160,19 @@ footer{
     margin: 0;
     padding: 0;
     width: 100%;
-   
-    
-} 
+}
 
 body:not(.home) footer {
     display: inline-block;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: space-between;
     position: relative;
-   
 }
 
-ul.lista{
-    
+ul.lista {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -204,34 +180,18 @@ ul.lista{
     font-size: smaller;
     text-align: right;
 }
-.lokacijaObjekata{
+
+.lokacijaObjekata {
     margin-bottom: 5px;
     font-size: smaller;
     font-weight: 600;
 }
 
-
-/*.lokacija {
-    background-image: url('img/lokacija.png'); 
-    background-repeat: no-repeat; /* Da se slika ne ponavlja */
-   /* background-position: right center; /* Pozicija slike: levo centrirano */
-   /* padding-left: 2px; /* Da ostavis prostor između slike i teksta */
-
-   
-/*}
-/*.drustveneMreze, .tekst, .kontaktInformacije {
-    text-align: center;
-  }
-*/
-
-
 @media screen and (max-width: 768px) {
-    
     .logo {
         width: 20px;
         height: 20px;
         margin-top: -20px;
-        
     }
 
     .heder a {
@@ -250,5 +210,21 @@ ul.lista{
     }
 }
 
+/* Lyrics styles */
+#song-lyrics {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #e72bce;
+}
 
-/*540 je sledece gde se menja*/
+#lyrics-text {
+    margin: 0;
+    line-height: 1.5em;
+    font-weight: bold;
+}
