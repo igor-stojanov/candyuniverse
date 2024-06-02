@@ -196,13 +196,16 @@
         function showLyrics() {
             var lyrics = [
                 "Welcome to the Candy Shop!",
+                "",
                 "Yeah, uh-huh",
                 "So seductive",
+                "",
                 "",
                 "I take you to the candy shop",
                 "I let you lick the lollipop",
                 "Go 'head, girl, don't you stop",
                 "Keep goin' until you hit the spot, woah",
+                "",
                 "",
                 "I take you to the candy shop (Yeah)",
                 "Want one taste of what I got? (Uh-huh)",
@@ -224,7 +227,7 @@
                     lyricsText.innerHTML += lyrics[index] + "<br>";
                     index++;
                     if (index % 2 === 0) {  // Display next lines every 2 seconds
-                        setTimeout(displayNextLine, 5000);
+                        setTimeout(displayNextLine, 3500);
                     } else {
                         displayNextLine();
                     }
